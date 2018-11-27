@@ -2,16 +2,16 @@
 from data import dataset
 from task1 import *
 
-#   Написати рекурсивну функцію, що повертає інформацію: хто і скільки грошей витратив на свої покупки.
-#   Рекурсивно необхідно пройтись по користувачам та спискам їх товарів.
+#   Написати рекурсивну функцію, що повертає інформацію: хто і скільки улюблених страв у нього у кожній країні.
+#   Рекурсивно необхідно пройтись по користувачам та по країнам.
 
 
-#product_list - словник з dataset, що зберігає товар та список його покупок (цін)
-def recursionByProducts(user_email, product_list, amount_of_money = 0):
+
+def recursionByCountry(?,...):
     #TODO
 
 
-def recursionByUsers(user_emails = list(dataset.keys()), result_dict = dict()):
+def recursionByUsers(?,...):
     #TODO
 
 

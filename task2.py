@@ -8,28 +8,27 @@ from validators.lib import ?
 ?
 
 
-from task1 import addUserProduct
+from task1 import addUserDish
 
 
-#   Написати функцію, що зберігає інформацію про покупку користувачем товару у словник.
+#   Написати функцію, що зберігає інформацію про улюблену страву користувача у певній країні
 #   Усі дані вводить користувач. Використати валідатори. Викликати функцію
 
-def addUserProductValidator():
+def addUserDishValidator():
     #TODO
-    ? = getUserEmail()
+    ? = getUserPassport()
 
 
-    ? = getProductName()
+    ? = getCountryName()
 
-    ? = getProductPrice()
+    ? = getDishName()
 
-
-    addUserProduct(?, ?, ?)
+    addUserDish(?, ?, ?)
 
 
 
 print("Task 1")
-addUserProductValidator()
+addUserDishValidator()
 print(dataset)
 
 

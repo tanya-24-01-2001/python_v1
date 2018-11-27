@@ -6,7 +6,7 @@
 
 import re
 
-def getUserEmail():
+def getUserPassport():
 
     user_input = input(?)
 
@@ -21,7 +21,7 @@ def getUserEmail():
     Правило валідації
 """
 
-def getProductName():
+def getCountryName():
     #TODO
 
 
@@ -32,5 +32,5 @@ def getProductName():
 """
 
 
-def getProductPrice():
+def getDishName():
     #TODO
